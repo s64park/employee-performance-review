@@ -1,9 +1,13 @@
 import passport from 'passport';
 import config  from '../config';
-import Admin from '../models/admin';
-import Employee from '../models/employee';
 const JwtStrategy = require('passport-jwt').Strategy;
 const ExtractJwt = require('passport-jwt').ExtractJwt;
+
+/*
+    This can be used for 3rd party OAuth authentication
+    However, I created local authentication middleware by myself.
+    This is so far just a piece of code for future implementation
+ */
 
 // Setup options for JWT Strategy
 const jwtOptions = {

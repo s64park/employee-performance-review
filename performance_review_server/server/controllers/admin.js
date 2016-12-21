@@ -9,8 +9,8 @@ import Feedback from '../models/feedback';
 const sampleAdmin = {
     username: "admin",
     password: "password",
-    firstname: "firstname",
-    lastname: "lastname",
+    firstname: "Danny",
+    lastname: "Park",
     email: "admin@gmail.com",
     title: "CEO",
     department: "BOD",

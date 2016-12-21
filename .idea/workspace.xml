@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e050c6a4-348a-45e4-9a0f-748dab946be7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/.babelrc" afterPath="$PROJECT_DIR$/performance_review_client/.babelrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/.gitignore" afterPath="$PROJECT_DIR$/performance_review_client/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/README.md" afterPath="$PROJECT_DIR$/performance_review_client/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/index.html" afterPath="$PROJECT_DIR$/performance_review_client/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/package.json" afterPath="$PROJECT_DIR$/performance_review_client/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/actions/auth.js" afterPath="$PROJECT_DIR$/performance_review_client/src/actions/auth.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/actions/employee.js" afterPath="$PROJECT_DIR$/performance_review_client/src/actions/employee.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/actions/feedback.js" afterPath="$PROJECT_DIR$/performance_review_client/src/actions/feedback.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/actions/performance.js" afterPath="$PROJECT_DIR$/performance_review_client/src/actions/performance.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/actions/types.js" afterPath="$PROJECT_DIR$/performance_review_client/src/actions/types.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/components/employeePreview.js" afterPath="$PROJECT_DIR$/performance_review_client/src/components/employeePreview.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/components/employeeProfile.js" afterPath="$PROJECT_DIR$/performance_review_client/src/components/employeeProfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/components/feedbackAvailableEmployees.js" afterPath="$PROJECT_DIR$/performance_review_client/src/components/feedbackAvailableEmployees.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/components/feedbackRequestBox.js" afterPath="$PROJECT_DIR$/performance_review_client/src/components/feedbackRequestBox.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/components/feedbacks.js" afterPath="$PROJECT_DIR$/performance_review_client/src/components/feedbacks.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/components/header.js" afterPath="$PROJECT_DIR$/performance_review_client/src/components/header.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/components/newEmployeeForm.js" afterPath="$PROJECT_DIR$/performance_review_client/src/components/newEmployeeForm.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/components/performanceRatingForm.js" afterPath="$PROJECT_DIR$/performance_review_client/src/components/performanceRatingForm.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/components/rating.js" afterPath="$PROJECT_DIR$/performance_review_client/src/components/rating.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/components/ratingDefinition.js" afterPath="$PROJECT_DIR$/performance_review_client/src/components/ratingDefinition.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/components/reviewField.js" afterPath="$PROJECT_DIR$/performance_review_client/src/components/reviewField.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/components/signinForm.js" afterPath="$PROJECT_DIR$/performance_review_client/src/components/signinForm.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/containers/admin.js" afterPath="$PROJECT_DIR$/performance_review_client/src/containers/admin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/containers/adminEmployee.js" afterPath="$PROJECT_DIR$/performance_review_client/src/containers/adminEmployee.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/containers/app.js" afterPath="$PROJECT_DIR$/performance_review_client/src/containers/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/containers/employee.js" afterPath="$PROJECT_DIR$/performance_review_client/src/containers/employee.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/containers/feedbackBox.js" afterPath="$PROJECT_DIR$/performance_review_client/src/containers/feedbackBox.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/containers/signin.js" afterPath="$PROJECT_DIR$/performance_review_client/src/containers/signin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/containers/welcome.js" afterPath="$PROJECT_DIR$/performance_review_client/src/containers/welcome.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/index.js" afterPath="$PROJECT_DIR$/performance_review_client/src/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/reducers/auth_reducer.js" afterPath="$PROJECT_DIR$/performance_review_client/src/reducers/auth_reducer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/reducers/employee_feedbacks_reducer.js" afterPath="$PROJECT_DIR$/performance_review_client/src/reducers/employee_feedbacks_reducer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/reducers/employee_reducer.js" afterPath="$PROJECT_DIR$/performance_review_client/src/reducers/employee_reducer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/reducers/employees_reducer.js" afterPath="$PROJECT_DIR$/performance_review_client/src/reducers/employees_reducer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/reducers/index.js" afterPath="$PROJECT_DIR$/performance_review_client/src/reducers/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/util/camerlize.js" afterPath="$PROJECT_DIR$/performance_review_client/src/util/camerlize.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/util/employeeHandler.js" afterPath="$PROJECT_DIR$/performance_review_client/src/util/employeeHandler.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/util/errorHelper.js" afterPath="$PROJECT_DIR$/performance_review_client/src/util/errorHelper.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/util/ratingTransformer.js" afterPath="$PROJECT_DIR$/performance_review_client/src/util/ratingTransformer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/src/util/yearCalculator.js" afterPath="$PROJECT_DIR$/performance_review_client/src/util/yearCalculator.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/style/style.css" afterPath="$PROJECT_DIR$/performance_review_client/style/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/test/components/app_test.js" afterPath="$PROJECT_DIR$/performance_review_client/test/components/app_test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/test/test_helper.js" afterPath="$PROJECT_DIR$/performance_review_client/test/test_helper.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_client/webpack.config.js" afterPath="$PROJECT_DIR$/performance_review_client/webpack.config.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_server/.babelrc" afterPath="$PROJECT_DIR$/performance_review_server/.babelrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_server/.gitignore" afterPath="$PROJECT_DIR$/performance_review_server/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_server/package.json" afterPath="$PROJECT_DIR$/performance_review_server/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_server/sample_data.json" afterPath="$PROJECT_DIR$/performance_review_server/sample_data.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_server/server/controllers/admin.js" afterPath="$PROJECT_DIR$/performance_review_server/server/controllers/admin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_server/server/controllers/authentication.js" afterPath="$PROJECT_DIR$/performance_review_server/server/controllers/authentication.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_server/server/controllers/employee.js" afterPath="$PROJECT_DIR$/performance_review_server/server/controllers/employee.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_server/server/index.js" afterPath="$PROJECT_DIR$/performance_review_server/server/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_server/server/models/admin.js" afterPath="$PROJECT_DIR$/performance_review_server/server/models/admin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_server/server/models/employee.js" afterPath="$PROJECT_DIR$/performance_review_server/server/models/employee.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_server/server/models/feedback.js" afterPath="$PROJECT_DIR$/performance_review_server/server/models/feedback.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_server/server/models/performance.js" afterPath="$PROJECT_DIR$/performance_review_server/server/models/performance.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_server/server/routes/admin.js" afterPath="$PROJECT_DIR$/performance_review_server/server/routes/admin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_server/server/routes/auth.js" afterPath="$PROJECT_DIR$/performance_review_server/server/routes/auth.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_server/server/routes/employee.js" afterPath="$PROJECT_DIR$/performance_review_server/server/routes/employee.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_server/server/routes/index.js" afterPath="$PROJECT_DIR$/performance_review_server/server/routes/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_server/server/services/authMiddleware.js" afterPath="$PROJECT_DIR$/performance_review_server/server/services/authMiddleware.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/paytm_interview_server/server/services/passport.js" afterPath="$PROJECT_DIR$/performance_review_server/server/services/passport.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="665">
+                <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/performance_review_server/server/controllers/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding>
+                <marker date="1482298701940" expanded="true" signature="0:42" ph="/** Created by Terry on 2016-12-14. ...*/" />
+                <marker date="1482298701940" expanded="false" signature="50:213" ph="..." />
+                <marker date="1482298701940" expanded="true" signature="235:404" ph="{&quot;username&quot;: &quot;admin&quot;...}" />
+                <marker date="1482298701940" expanded="true" signature="537:994" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="607:991" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="668:985" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="709:755" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="870:932" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="1087:1214" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="1131:1210" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="1312:2198" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="1477:2194" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="1540:1641" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="1683:1780" ph="{&quot;username&quot;: username...}" />
+                <marker date="1482298701940" expanded="true" signature="1924:2186" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="1981:2104" ph="//..." />
+                <marker date="1482298701940" expanded="true" signature="2248:2531" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="2349:2527" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="2584:3243" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="2772:3239" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="2940:2994" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="3025:3110" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="3142:3192" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="3296:3487" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="3402:3483" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="3546:4074" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="3654:4071" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="3721:3993" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="3774:3816" ph="{&quot;employeeId&quot;: employeeId...}" />
+                <marker date="1482298701940" expanded="true" signature="3861:3919" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="4007:4064" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="4133:4768" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="4247:4764" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="4529:4595" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="4639:4693" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="4830:5373" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="4938:5369" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="5136:5193" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="5272:5326" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="5424:6129" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="5591:6125" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="5800:5885" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="5963:6117" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="6182:8151" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="6521:8147" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="6705:7109" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="6729:6906" ph="{&quot;name&quot;: reviewerName...}" />
+                <marker date="1482298701940" expanded="true" signature="6930:7099" ph="{&quot;name&quot;: revieweeName...}" />
+                <marker date="1482298701940" expanded="true" signature="7146:8140" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="7260:8128" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="7520:7604" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="7647:7716" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="7792:8044" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="7959:8024" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="8206:10176" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="8422:10173" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="8644:10161" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="8946:9033" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="9080:9157" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="9237:10144" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="9536:9645" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="9678:9787" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="9835:9908" ph="{...}" />
+                <marker date="1482298701940" expanded="true" signature="9960:10045" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/performance_review_server/server/routes/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1482276009134" expanded="true" signature="0:42" ph="/** Created by Terry on 2016-11-28. ...*/" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/performance_review_server/server/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1482275731007" expanded="true" signature="0:42" ph="/** Created by Terry on 2016-12-14. ...*/" />
+                <marker date="1482275731007" expanded="false" signature="50:164" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/performance_review_client/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="570">
+                <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/performance_review_server/server/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/performance_review_client/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/performance_review_server/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authMiddleware.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/performance_review_server/server/services/authMiddleware.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1482275731054" expanded="true" signature="0:42" ph="/** Created by Terry on 2016-12-20. ...*/" />
+                <marker date="1482275731054" expanded="false" signature="50:184" ph="..." />
+                <marker date="1482275731054" expanded="true" signature="228:1166" ph="{...}" />
+                <marker date="1482275731054" expanded="true" signature="411:1000" ph="{...}" />
+                <marker date="1482275731054" expanded="true" signature="459:525" ph="{...}" />
+                <marker date="1482275731054" expanded="true" signature="535:630" ph="{...}" />
+                <marker date="1482275731054" expanded="true" signature="682:993" ph="{...}" />
+                <marker date="1482275731054" expanded="true" signature="859:956" ph="{...}" />
+                <marker date="1482275731054" expanded="true" signature="1010:1164" ph="{...}" />
+                <marker date="1482275731054" expanded="true" signature="1020:1070" ph="//..." />
+                <marker date="1482275731054" expanded="true" signature="1107:1157" ph="{&quot;error&quot;: &quot;No token provided&quot;...}" />
+                <marker date="1482275731054" expanded="true" signature="1213:2156" ph="{...}" />
+                <marker date="1482275731054" expanded="true" signature="1396:1989" ph="{...}" />
+                <marker date="1482275731054" expanded="true" signature="1445:1511" ph="{...}" />
+                <marker date="1482275731054" expanded="true" signature="1521:1616" ph="{...}" />
+                <marker date="1482275731054" expanded="true" signature="1671:1982" ph="{...}" />
+                <marker date="1482275731054" expanded="true" signature="1848:1945" ph="{...}" />
+                <marker date="1482275731054" expanded="true" signature="1999:2154" ph="{...}" />
+                <marker date="1482275731054" expanded="true" signature="2009:2059" ph="//..." />
+                <marker date="1482275731054" expanded="true" signature="2096:2146" ph="{&quot;error&quot;: &quot;No token provided&quot;...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="passport.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/performance_review_server/server/services/passport.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+              <folding>
+                <marker date="1482296980428" expanded="true" signature="7:65" ph="..." />
+                <marker date="1482296980428" expanded="true" signature="176:370" ph="/*...*/" />
+                <marker date="1482296980428" expanded="true" signature="425:519" ph="{&quot;secretOrKey&quot;: config.secret...}" />
+                <marker date="1482296980428" expanded="true" signature="644:1023" ph="{...}" />
+                <marker date="1482296980428" expanded="true" signature="650:806" ph="//..." />
+                <marker date="1482296980428" expanded="true" signature="858:1019" ph="{...}" />
+                <marker date="1482296980428" expanded="true" signature="924:965" ph="{...}" />
+                <marker date="1482296980428" expanded="true" signature="971:1013" ph="{...}" />
+                <marker date="1482296980428" expanded="true" signature="1051:1245" ph="{&quot;clientID&quot;: config.facebookAuth.clientID...}" />
+                <marker date="1482296980428" expanded="true" signature="1353:2516" ph="{...}" />
+                <marker date="1482296980428" expanded="true" signature="1422:2513" ph="{...}" />
+                <marker date="1482296980428" expanded="true" signature="1476:1922" ph="{...}" />
+                <marker date="1482296980428" expanded="true" signature="1512:1734" ph="{...}" />
+                <marker date="1482296980428" expanded="true" signature="1539:1721" ph="{&quot;id&quot;: profile.id...}" />
+                <marker date="1482296980428" expanded="true" signature="1818:1911" ph="{...}" />
+                <marker date="1482296980428" expanded="true" signature="1940:2508" ph="{...}" />
+                <marker date="1482296980428" expanded="true" signature="1953:2103" ph="//..." />
+                <marker date="1482296980428" expanded="true" signature="2141:2463" ph="{...}" />
+                <marker date="1482296980428" expanded="true" signature="2347:2448" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/performance_review_client/test/components/app_test.js" />
+        <option value="$PROJECT_DIR$/performance_review_server/server/services/passport.js" />
+        <option value="$PROJECT_DIR$/performance_review_server/package.json" />
+        <option value="$PROJECT_DIR$/performance_review_server/server/controllers/admin.js" />
+        <option value="$PROJECT_DIR$/performance_review_client/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paytm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paytm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paytm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paytm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="performance_review_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paytm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paytm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="performance_review_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paytm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paytm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="performance_review_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paytm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paytm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="performance_review_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/performance_review_client" />
+    <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../node" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="javascript.nodejs.core.library.configured.version" value="4.5.0" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js.eslint.nodeInterpreter" value="project" />
+    <property name="js-jscs-nodeInterpreter" value="D:\Webstorm\node.exe" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e050c6a4-348a-45e4-9a0f-748dab946be7" name="Default" comment="" />
+      <created>1482293204215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1482293204215</updated>
+      <workItem from="1482293205492" duration="5645000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5645000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2507903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/performance_review_client/test/components/app_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance_review_client/test/test_helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance_review_client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance_review_server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance_review_server/server/services/authMiddleware.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1482275731054" expanded="true" signature="0:42" ph="/** Created by Terry on 2016-12-20. ...*/" />
+            <marker date="1482275731054" expanded="false" signature="50:184" ph="..." />
+            <marker date="1482275731054" expanded="true" signature="228:1166" ph="{...}" />
+            <marker date="1482275731054" expanded="true" signature="411:1000" ph="{...}" />
+            <marker date="1482275731054" expanded="true" signature="459:525" ph="{...}" />
+            <marker date="1482275731054" expanded="true" signature="535:630" ph="{...}" />
+            <marker date="1482275731054" expanded="true" signature="682:993" ph="{...}" />
+            <marker date="1482275731054" expanded="true" signature="859:956" ph="{...}" />
+            <marker date="1482275731054" expanded="true" signature="1010:1164" ph="{...}" />
+            <marker date="1482275731054" expanded="true" signature="1020:1070" ph="//..." />
+            <marker date="1482275731054" expanded="true" signature="1107:1157" ph="{&quot;error&quot;: &quot;No token provided&quot;...}" />
+            <marker date="1482275731054" expanded="true" signature="1213:2156" ph="{...}" />
+            <marker date="1482275731054" expanded="true" signature="1396:1989" ph="{...}" />
+            <marker date="1482275731054" expanded="true" signature="1445:1511" ph="{...}" />
+            <marker date="1482275731054" expanded="true" signature="1521:1616" ph="{...}" />
+            <marker date="1482275731054" expanded="true" signature="1671:1982" ph="{...}" />
+            <marker date="1482275731054" expanded="true" signature="1848:1945" ph="{...}" />
+            <marker date="1482275731054" expanded="true" signature="1999:2154" ph="{...}" />
+            <marker date="1482275731054" expanded="true" signature="2009:2059" ph="//..." />
+            <marker date="1482275731054" expanded="true" signature="2096:2146" ph="{&quot;error&quot;: &quot;No token provided&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance_review_server/server/services/passport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding>
+            <marker date="1482296980428" expanded="true" signature="7:65" ph="..." />
+            <marker date="1482296980428" expanded="true" signature="176:370" ph="/*...*/" />
+            <marker date="1482296980428" expanded="true" signature="425:519" ph="{&quot;secretOrKey&quot;: config.secret...}" />
+            <marker date="1482296980428" expanded="true" signature="644:1023" ph="{...}" />
+            <marker date="1482296980428" expanded="true" signature="650:806" ph="//..." />
+            <marker date="1482296980428" expanded="true" signature="858:1019" ph="{...}" />
+            <marker date="1482296980428" expanded="true" signature="924:965" ph="{...}" />
+            <marker date="1482296980428" expanded="true" signature="971:1013" ph="{...}" />
+            <marker date="1482296980428" expanded="true" signature="1051:1245" ph="{&quot;clientID&quot;: config.facebookAuth.clientID...}" />
+            <marker date="1482296980428" expanded="true" signature="1353:2516" ph="{...}" />
+            <marker date="1482296980428" expanded="true" signature="1422:2513" ph="{...}" />
+            <marker date="1482296980428" expanded="true" signature="1476:1922" ph="{...}" />
+            <marker date="1482296980428" expanded="true" signature="1512:1734" ph="{...}" />
+            <marker date="1482296980428" expanded="true" signature="1539:1721" ph="{&quot;id&quot;: profile.id...}" />
+            <marker date="1482296980428" expanded="true" signature="1818:1911" ph="{...}" />
+            <marker date="1482296980428" expanded="true" signature="1940:2508" ph="{...}" />
+            <marker date="1482296980428" expanded="true" signature="1953:2103" ph="//..." />
+            <marker date="1482296980428" expanded="true" signature="2141:2463" ph="{...}" />
+            <marker date="1482296980428" expanded="true" signature="2347:2448" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance_review_server/server/routes/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1482276009134" expanded="true" signature="0:42" ph="/** Created by Terry on 2016-11-28. ...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance_review_server/server/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1482275731007" expanded="true" signature="0:42" ph="/** Created by Terry on 2016-12-14. ...*/" />
+            <marker date="1482275731007" expanded="false" signature="50:164" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance_review_server/server/controllers/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <marker date="1482298701940" expanded="true" signature="0:42" ph="/** Created by Terry on 2016-12-14. ...*/" />
+            <marker date="1482298701940" expanded="false" signature="50:213" ph="..." />
+            <marker date="1482298701940" expanded="true" signature="235:404" ph="{&quot;username&quot;: &quot;admin&quot;...}" />
+            <marker date="1482298701940" expanded="true" signature="537:994" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="607:991" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="668:985" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="709:755" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="870:932" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="1087:1214" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="1131:1210" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="1312:2198" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="1477:2194" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="1540:1641" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="1683:1780" ph="{&quot;username&quot;: username...}" />
+            <marker date="1482298701940" expanded="true" signature="1924:2186" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="1981:2104" ph="//..." />
+            <marker date="1482298701940" expanded="true" signature="2248:2531" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="2349:2527" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="2584:3243" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="2772:3239" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="2940:2994" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="3025:3110" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="3142:3192" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="3296:3487" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="3402:3483" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="3546:4074" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="3654:4071" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="3721:3993" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="3774:3816" ph="{&quot;employeeId&quot;: employeeId...}" />
+            <marker date="1482298701940" expanded="true" signature="3861:3919" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="4007:4064" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="4133:4768" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="4247:4764" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="4529:4595" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="4639:4693" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="4830:5373" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="4938:5369" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="5136:5193" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="5272:5326" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="5424:6129" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="5591:6125" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="5800:5885" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="5963:6117" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="6182:8151" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="6521:8147" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="6705:7109" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="6729:6906" ph="{&quot;name&quot;: reviewerName...}" />
+            <marker date="1482298701940" expanded="true" signature="6930:7099" ph="{&quot;name&quot;: revieweeName...}" />
+            <marker date="1482298701940" expanded="true" signature="7146:8140" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="7260:8128" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="7520:7604" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="7647:7716" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="7792:8044" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="7959:8024" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="8206:10176" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="8422:10173" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="8644:10161" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="8946:9033" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="9080:9157" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="9237:10144" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="9536:9645" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="9678:9787" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="9835:9908" ph="{...}" />
+            <marker date="1482298701940" expanded="true" signature="9960:10045" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance_review_client/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="570">
+            <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance_review_server/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="665">
+            <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
