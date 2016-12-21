@@ -6,10 +6,6 @@ const Admin =  require('../controllers/admin');
 import { adminAuth } from '../services/authMiddleware';
 const router = express.Router();
 
-// this is just for convenience
-router.route('/createAdmin')
-    .post(Admin.createAdmin);
-
 router.route('/')
     .get(adminAuth, Admin.getEmployees)
     .post(adminAuth, Admin.addEmployee);

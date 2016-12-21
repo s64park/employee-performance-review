@@ -70,11 +70,11 @@ class NewEmployeeForm extends Component {
         }
     }
     render(){
-        const { handleSubmit, pristine, reset, submitting } = this.props;
+        const { handleSubmit, pristine, reset, submitting, employee } = this.props;
         return (
             <form onSubmit={handleSubmit} className="text-center">
                 <Field name="username" type="text" component={renderField} label="Username: *"/>
-                <Field name="password" type="password" component={renderField} label="Password: *"/>
+                {!employee ? <Field name="password" type="password" component={renderField} label="Password: *"/> : undefined }
                 <Field name="firstname" type="text" component={renderField} label="FIrstname: *"/>
                 <Field name="lastname" type="text" component={renderField} label="Lastname: *"/>
                 <Field name="title" type="text" component={renderField} label="Job Title: *"/>

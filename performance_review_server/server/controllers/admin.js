@@ -73,15 +73,11 @@ exports.getEmployee = function(req, res, next) {
 
 exports.updateEmployee = function(req, res, next) {
     const employeeId = req.params.employeeId;
-    // const {password, firstname,  lastname, email, jobTitle, deparment } = req.body;
     Employee.findById(employeeId, (err, employee) => {
         if (err) { next(err); }
         if (!employee) { return res.status(400).send({ error: "The employee is not registered"}); }
         for (let key in req.body) {
             employee[key] = req.body[key];
-        }
-        if(req.body.password) {
-            employee.password = employee.generateHash(req.body.password);
         }
         employee.save((err) => {
             if (err) return next(err);
@@ -94,6 +90,19 @@ exports.deleteEmployee = function(req, res, next) {
     const employeeId = req.params.employeeId;
     Employee.findByIdAndRemove(employeeId, (err, resp) => {
         if (err) { return next(err); }
+        Performance.findOne({employeeId}, (err, performance) => {
+            if(err) { return next(err); }
+            if(performance) {
+                // Remove related feedbacks
+                Feedback.find({'_id': { $in: [...performance.feedbacks]}}).remove((err) => {
+                    if(err) { return next(err); }
+                });
+                // Remove the user's performance
+                performance.remove((err) => {
+                    if (err) {return next(err);}
+                })
+            }
+        });
         return res.json({ resp });
     });
 };

@@ -26,7 +26,7 @@ class Feedbacks extends Component {
                     const submitted = (
                         <div className="feedback-box">
                             <Row>
-                                <Col md={11}><h4>{feedback.reviewer.name} Submitted feedbacks</h4></Col>
+                                <Col md={11}><h4>{feedback.reviewer.name} Submitted feedback</h4></Col>
                                 <Col md={1}><Button style={{width: "100%"}} type="button" onClick={() => {this.props.unassignedFeedback(feedback.reviewer._id, feedback.reviewee._id)}}>X</Button></Col>
                             </Row>
                             <Row>
@@ -40,7 +40,7 @@ class Feedbacks extends Component {
                     const pending = (
                         <div className="feedback-box">
                             <Row>
-                                <Col md={11}><h4>Waiting for feedbacks from {feedback.reviewer.name} </h4></Col>
+                                <Col md={11}><h4>Waiting for feedback from {feedback.reviewer.name} </h4></Col>
                                 <Col md={1}><Button type="button" onClick={() => {this.props.unassignedFeedback(feedback.reviewer._id, feedback.reviewee._id)}}>X</Button></Col>
                             </Row>
                         </div>
