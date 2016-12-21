@@ -1,0 +1,34 @@
+/**
+ * Created by Terry on 2016-12-14.
+ */
+{
+//Employee creation sample JSON
+    "username": "employee1changed",
+    "password": "passwordchanged",
+    "firstname": "e1",
+    "lastname": "e1",
+    "email": "e1changed@gmail.com",
+    "jobTitle": "Dev",
+    "department": "IT",
+
+//Performance Review sample JSON
+    "qualityOfWork": "O",
+    "quantityOfWork": "O",
+    "individualEffectiveness": "O",
+    "communication": "O",
+    "serviceFocus": "O",
+    "judgementAndDecisionMaking": "O",
+    "teamBuilding": "O",
+    "jobKnowledge": "O",
+    "initiative": "O",
+    "ongoingSkillsImprovement": "O",
+    "dependability": "O",
+    "safeWorkPractice": "O",
+    "attendanceAndPuntuality": "O",
+    "overall": "BE",
+//PerformanceReview Update
+    "qualityOfWork": "E",
+    "quantityOfWork": "E",
+    "individualEffectiveness": "E",
+    "safeWorkPractice": "NA"
+}

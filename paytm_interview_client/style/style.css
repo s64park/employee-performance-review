@@ -1,0 +1,46 @@
+.error {
+    color: red;
+}
+
+hr.style2 {
+    border-top: 3px double #8c8b8b;
+}
+
+hr.style3 {
+    border-top: 1px dashed #8c8b8b;
+}
+hr.style7 {
+    border-top: 1px solid #8c8b8b;
+    border-bottom: 1px solid #fff;
+}
+
+hr.style8 {
+    border-top: 1px solid #8c8b8b;
+    border-bottom: 1px solid #fff;
+}
+hr.style8:after {
+    content: '';
+    display: block;
+    margin-top: 2px;
+    border-top: 1px solid #8c8b8b;
+    border-bottom: 1px solid #fff;
+}
+hr.style9 {
+    border-top: 1px dashed #8c8b8b;
+    border-bottom: 1px dashed #fff;
+}
+
+.feedback-box {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #8c8b8b;
+}
+
+.preview-box {
+    padding: 10px;
+    border: 1px solid #8c8b8b;
+}
+
+.extra-space {
+    margin-bottom: 10px;
+}
