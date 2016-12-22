@@ -56,7 +56,7 @@ Now, we can't create admin through the browser as expected.
 
 To create sample admin, download Postman or similar app for the browser. 
 
-In Postman, post http://localhost:8080/admin/createAdmin => sample admin will be create
+In Postman, post http://localhost:8080/createAdmin => sample admin will be create
 
 username: "admin"    /    password: "password"
 
@@ -72,7 +72,7 @@ username: "admin"    /    password: "password"
 6. Click "view details" of first employee
 7. Click "Performance review" to create the employee's performance review
 8. On the bottom of the performance review form, click Request Feedback' box to request feedback from other employees
-9. On Feedback, click "X" to reject feedback from other emplyees
+9. On Feedback, click "X" to reject feedback from other employees
 10. Fill some of the fields in the form and save it.
 11. Close the form, and re-open to check if it saved correctly.
 
@@ -90,6 +90,6 @@ username: "admin"    /    password: "password"
 Pre-step: employees submitted their requiring feedbacks 
 
 1. Login as admin
-2. Click "view details" to see the specific employee 
+2. Click "view details" to see the specific employee
 3. Click "Performance Review" to see the review form
 4. On the bottom, check if I can see the submitted feedback from other employees
