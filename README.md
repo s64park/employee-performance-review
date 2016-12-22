@@ -14,11 +14,15 @@ List of performance reviews requiring feedback
 Submit feedback
 
 ##Technologies used:
-Frontend: [React.js](https://facebook.github.io/react/) with [Redux](http://redux.js.org/)
+Frontend: [React.js](https://facebook.github.io/react/) with [Redux](http://redux.js.org/), [react-bootstrap](https://react-bootstrap.github.io/)
 
 Backend: [Node.js](https://nodejs.org/) with [Express.js](http://expressjs.com/)
 
 Database: [MongoDB](https://docs.mongodb.com/)
+
+Other tools: [babel](https://babeljs.io/), [webpack](https://webpack.github.io/)
+
+Future unit tests: [mocha.js](https://mochajs.org/), [chai.js](http://chaijs.com/), and [enzyme.js](http://airbnb.io/enzyme/index.html)
 
 ##Quick test
 ####Clone this repo or download the .zip file, install dependencies, then npm run dev for server and npm start for client:
