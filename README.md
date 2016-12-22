@@ -27,17 +27,17 @@ Future unit tests: [mocha.js](https://mochajs.org/), [chai.js](http://chaijs.com
 ##Quick test
 ####Clone this repo or download the .zip file, install dependencies, then npm run dev for server and npm start for client:
 
-####"employee-performance-server" 
+####"performance_review_server" 
 ```
-    > cd employee-performance-server
+    > cd performance_review_server
 	> npm install
 	> npm install -g nodemon
 	> npm run dev
 ```
 
-####"employee-performance-client" (2nd terminal)
+####"performance_review_client" (2nd terminal)
 ```
-    > cd employee-performance-client
+    > cd performance_review_client
 	> npm install
 	> npm start
 ```
