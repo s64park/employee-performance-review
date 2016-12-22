@@ -10,13 +10,11 @@ import ratingTransformer from '../util/ratingTransformer';
 class Feedbacks extends Component {
     shouldComponentUpdate(nextProps) {
         if (nextProps.assignedFeedbacks !== this.props.assignedFeedbacks) {
-            console.log(nextProps.assignedFeedbacks);
             return true;
         }
     }
 
     render() {
-        console.log("assignedFeedbacks", this.props.assignedFeedbacks);
         return (
             <div>
                 <Row>

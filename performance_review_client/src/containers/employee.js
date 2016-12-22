@@ -22,7 +22,7 @@ class Employee extends Component {
             <div>
                 {requiringFeedbacks ?
                     (<div>
-                    <h2>Requiring Feedbacks:</h2>
+                    <h2>Requiring Feedback List:</h2>
                     {requiringFeedbacks.map(feedback => {
                             return <FeedbackBox key={feedback._id} {...feedback} employeeId={this.props.params.employeeId}/>
                     })}
@@ -30,7 +30,7 @@ class Employee extends Component {
                 }
                 {submittedFeedbacks ?
                     (<div>
-                        <h2>Submitted Feedbacks:</h2>
+                        <h2>Submitted Feedback List:</h2>
                         {submittedFeedbacks.map(feedback => {
                                 return <FeedbackBox key={feedback._id} {...feedback} />
                         })}

@@ -6,17 +6,6 @@ import {Row, Col} from 'react-bootstrap';
 import FeedbackRequestBox from './feedbackRequestBox';
 import { connect } from 'react-redux';
 import { assignFeedback } from '../actions/feedback';
-//available employeeList
-const sampleEmployeeList  = [
-    {name: 'Sanghyun Park', job: 'FullStack Developer', department: 'IT', id: '1' },
-    {name: 'Sanghyun Park', job: 'FullStack Developer', department: 'IT', id: '2' },
-    {name: 'Sanghyun Park', job: 'FullStack Developer', department: 'IT', id: '3' },
-    {name: 'Sanghyun Park', job: 'FullStack Developer', department: 'IT', id: '4' },
-    {name: 'Sanghyun Park', job: 'FullStack Developer', department: 'IT', id: '5' },
-    {name: 'Sanghyun Park', job: 'FullStack Developer', department: 'IT', id: '6' },
-    {name: 'Sanghyun Park', job: 'FullStack Developer', department: 'IT', id: '7' },
-    {name: 'Sanghyun Park', job: 'FullStack Developer', department: 'IT', id: '8' }
-];
 
 class FeedbackAvailableEmployees extends Component {
     render() {
