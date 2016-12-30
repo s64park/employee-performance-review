@@ -13,9 +13,12 @@ import Employee from './containers/employee';
 import Admin from './containers/admin';
 import reducers from './reducers';
 import { AUTH_USER } from './actions/types'
+import { composeWithDevTools } from 'remote-redux-devtools';
 
-const createStoreWithMiddleware = applyMiddleware(reduxThunk)(createStore);
-const store = createStoreWithMiddleware(reducers);
+const composeEnhancers = composeWithDevTools({ realtime: true, port: 8080 });
+const store = createStore(reducers, composeEnhancers(
+    applyMiddleware(reduxThunk)
+));
 
 if(localStorage.getItem('token')) {
     store.dispatch({type: AUTH_USER});
