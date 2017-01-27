@@ -24,7 +24,7 @@ Other tools: [babel](https://babeljs.io/), [webpack](https://webpack.github.io/)
 
 Future unit tests: [mocha.js](https://mochajs.org/), [chai.js](http://chaijs.com/), and [enzyme.js](http://airbnb.io/enzyme/index.html)
 
-[Live Memo](http://paytm-employee-performance-review.44fs.preview.openshiftapps.com/) (admin username: "admin" password: "password")
+[Live Memo](https://secret-citadel-28889.herokuapp.com) (admin username: "admin" password: "password")
 
 ##Quick test
 ####Clone this repo or download the .zip file, install dependencies, then npm run dev for server and npm start for client:
